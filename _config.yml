@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               MerkeleyDS
-tagline:             Another Data Science Blog
-url:                 http://Merkeley.github.io
+title:               Z.W. Miller
+tagline:             A Moderately Okay Data Science Blog
+url:                 http://zwmiller.github.io
 paginate:            2
 baseurl:             ""
 
@@ -17,14 +17,14 @@ sass:
 
 # About/contact
 author:
-  name:              Michael Boals
-  url:               https://twitter.com/merkeley
-  email:             maboals@gmail.com
+  name:              Zach Miller
+  url:               https://twitter.com/zaglamir
+  email:             zach@thisismetis.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/Merkeley
+  repo:              https://github.com/zwmiller
 
 # Gems
 gems:
