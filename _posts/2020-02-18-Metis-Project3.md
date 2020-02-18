@@ -57,10 +57,9 @@ The scores for each of the models are shown in Table 1.
     </tr>
 
     <tr>
-        <td>
-        Hybrid Model	
-        0.70	
-        0.77
+        <td>Hybrid Model</td>	
+        <td>0.70</td>	
+        <td>0.77</td>
     </tr>
 
 </table>
