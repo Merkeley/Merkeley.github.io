@@ -32,53 +32,28 @@ The scores for each of the models are shown in Table 1.
     <td>0.83</td>
     </tr>
     
-
     <tr>
-         <td>
-         KNN Classifier	
-         </td>
-         <td>
-         0.75	
-         </td>
-         <td>
-         0.81
-         </td>
+         <td> KNN Classifier	</td>
+         <td> 0.75	</td>
+         <td> 0.81 </td>
     </tr>
 
     <tr>
-        <td>
-        Random Forest Classifier	
-        </td>
-        <td>
-        0.86	
-        </td>
-        <td>
-        0.82
-        </td>
+        <td> Random Forest Classifier	</td>
+        <td> 0.86	</td>
+        <td> 0.82 </td>
     </tr>
 
     <tr>
-        <td>
-        Support Vector Classifier	
-        </td>
-        <td>
-        0.78	
-        </td>
-        <td>
-        0.82
-        </td>
+        <td> Support Vector Classifier	</td>
+        <td> 0.78	</td>
+        <td> 0.82 </td>
     </tr>
 
     <tr>
-        <td>
-        Naïve Bayes Classifier	
-        </td>
-        <td>
-        0.78	
-        </td>
-        <td>
-        0.77
-        </td>
+        <td> Naïve Bayes Classifier	</td>
+        <td> 0.78	</td>
+        <td> 0.77 </td>
     </tr>
 
     <tr>
@@ -88,6 +63,9 @@ The scores for each of the models are shown in Table 1.
         0.77
     </tr>
 
+</table>
+
+<br>
 While many of the models performed similarly, I chose the Logistic Regression model primarily because the model is interpretable, i.e. we are able to easily see the relation between changes in inputs and the prediction.
 
 I then applied this model to data held out for final testing.  The ROC AUC score was similar to the initial trials but the Recall Score was significantly lower for the test dataset.  This may be due to overfitting the training data.
