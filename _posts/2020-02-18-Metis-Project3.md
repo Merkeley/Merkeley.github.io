@@ -19,23 +19,27 @@ In creating the hybrid classifier mentioned above, I tried to utilize the correl
 The scores for each of the models are shown in Table 1.
 
 <table>
-<th> Metrics </th>
     <tr>
-    <td>Models Tested</td>
-    <td>Recall</td>	
-    <td>ROC AUC Score</td>
+        <td></td>
+        <td colspan='2'> Metrics </td>
     </tr>
 
     <tr>
-    <td>Logistic Regression</td>
-    <td>0.76</td>
-    <td>0.83</td>
+        <td>Models Tested</td>
+        <td>Recall</td>	
+        <td>ROC AUC Score</td>
+    </tr>
+
+    <tr>
+        <td>Logistic Regression</td>
+        <td>0.76</td>
+        <td>0.83</td>
     </tr>
     
     <tr>
-         <td> KNN Classifier	</td>
-         <td> 0.75	</td>
-         <td> 0.81 </td>
+         <td>KNN Classifier	</td>
+         <td>0.75	</td>
+         <td>0.81 </td>
     </tr>
 
     <tr>
@@ -57,10 +61,9 @@ The scores for each of the models are shown in Table 1.
     </tr>
 
     <tr>
-        <td>
-        Hybrid Model	
-        0.70	
-        0.77
+        <td>Hybrid Model</td>
+        <td>0.70</td>
+        <td>0.7</td>
     </tr>
 
 </table>
