@@ -18,15 +18,75 @@ In creating the hybrid classifier mentioned above, I tried to utilize the correl
 ## Results
 The scores for each of the models are shown in Table 1.
 
-	Metrics
-Models Tested	Recall	ROC AUC
-Score
-Logistic Regression	0.76	0.83
-KNN Classifier	0.75	0.81
-Random Forest Classifier	0.86	0.82
-Support Vector Classifier	0.78	0.82
-Naïve Bayes Classifier	0.78	0.77
-Hybrid Model	0.70	0.77
+<table>
+<th> Metrics </th>
+    <tr>
+    <td>Models Tested</td>
+    <td>Recall</td>	
+    <td>ROC AUC Score</td>
+    </tr>
+
+    <tr>
+    <td>Logistic Regression</td>
+    <td>0.76</td>
+    <td>0.83</td>
+    </tr>
+    
+
+    <tr>
+         <td>
+         KNN Classifier	
+         </td>
+         <td>
+         0.75	
+         </td>
+         <td>
+         0.81
+         </td>
+    </tr>
+
+    <tr>
+        <td>
+        Random Forest Classifier	
+        </td>
+        <td>
+        0.86	
+        </td>
+        <td>
+        0.82
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+        Support Vector Classifier	
+        </td>
+        <td>
+        0.78	
+        </td>
+        <td>
+        0.82
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+        Naïve Bayes Classifier	
+        </td>
+        <td>
+        0.78	
+        </td>
+        <td>
+        0.77
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+        Hybrid Model	
+        0.70	
+        0.77
+    </tr>
 
 While many of the models performed similarly, I chose the Logistic Regression model primarily because the model is interpretable, i.e. we are able to easily see the relation between changes in inputs and the prediction.
 
