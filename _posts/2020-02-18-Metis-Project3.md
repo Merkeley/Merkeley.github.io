@@ -19,7 +19,6 @@ In creating the hybrid classifier mentioned above, I tried to utilize the correl
 The scores for each of the models are shown in Table 1.
 
 <table>
-<th> Metrics </th>
     <tr>
     <td>Models Tested</td>
     <td>Recall</td>	
